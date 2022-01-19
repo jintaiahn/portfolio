@@ -1,0 +1,60 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+ul h1 {
+  margin-left: 20px;
+  margin-right: 100px;
+  text-align: center;
+  font-family: "Verdana", sans-serif;
+}
+
+#my-portfolio-header {
+  display: inline;
+}
+
+body {
+  background-color: #F0F8FF
+}
+
+ul {
+  list-style-type: none;
+  overflow: hidden;
+  background-color: #5F9EA0;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  float: left;
+  display: block;
+  color: #FFF8DC;
+  text-align: center;
+  font-size: 1.2em;
+  font-family: "Courier", sans-serif;
+  padding: 15px 20px;
+  text-decoration: none;
+}
+p {
+  font-weight: bold;
+  padding-bottom: 50px;
+}
+#em-paragraph {
+  font-style: italic;
+}
+
+#with-border {
+  border-top: 2px solid #000000;
+}
+
+.home-paragraphs {
+  font-family: "fantasy", sans-serif;
+  font-size: 1.1em;
+  width: 1000px;
+  text-align: justify;
+  margin: 15px auto;
+}
