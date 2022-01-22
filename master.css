@@ -4,57 +4,102 @@
   box-sizing: border-box;
 }
 
-ul h1 {
-  margin-left: 20px;
-  margin-right: 100px;
-  text-align: center;
-  font-family: "Verdana", sans-serif;
+.navigation-bar {
+  background-color: #8DC1BC;
+  padding: 10px 10px;
+  position: sticky;
+  top: 0;
 }
 
-#my-portfolio-header {
-  display: inline;
+.navigation-bar h1 {
+  font-family: "Verdana", sans-serif;
+  font-size: 30px;
+  text-align: center;
+}
+
+.links {
+  background-color: #5f9ea0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 10px;
+}
+
+.links a {
+  color: #fff8dc;
+  font-size: 0.75em;
+  font-family: "Courier", sans-serif;
+  margin: 0 10px;
+}
+
+.merman-container {
+  font-family: "fantasy", sans-serif;
+  text-align: justify;
+}
+
+.merman-container img {
+  width: 400px;
+  display: block;
+  margin: 0 auto;
+}
+
+.intro-text {
+  margin: auto;
+  margin-bottom: 30px;
+  width: 450px;
+  font-size: 1.2em;
 }
 
 body {
-  background-color: #F0F8FF
+  background-color: #FFFCEE;
 }
 
-ul {
-  list-style-type: none;
-  overflow: hidden;
-  background-color: #5F9EA0;
-}
-
-li {
-  float: left;
-}
-
-li a {
-  float: left;
-  display: block;
-  color: #FFF8DC;
-  text-align: center;
-  font-size: 1.2em;
-  font-family: "Courier", sans-serif;
-  padding: 15px 20px;
-  text-decoration: none;
-}
 p {
   font-weight: bold;
-  padding-bottom: 50px;
-}
-#em-paragraph {
-  font-style: italic;
-}
+  /*padding-bottom: 50px;*/
 
-#with-border {
-  border-top: 2px solid #000000;
 }
 
 .home-paragraphs {
   font-family: "fantasy", sans-serif;
-  font-size: 1.1em;
-  width: 1000px;
+  font-size: 1.2em;
+  width: 450px;
   text-align: justify;
-  margin: 15px auto;
+  margin: 20px auto;
+}
+
+.home-paragraphs p {
+  margin-bottom: 30px;
+}
+
+@media only screen and (min-width: 961px) {
+  .links {
+    background-color: #5f9ea0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 10px;
+  }
+
+  .links a {
+    color: #fff8dc;
+    font-size: 1.2em;
+    font-family: "Courier", sans-serif;
+    margin: 0 30px;
+  }
+
+  .intro-text {
+    margin: auto;
+    width: 450px;
+    font-size: 1.1em;
+  }
+
+  .home-paragraphs {
+    font-family: "fantasy", sans-serif;
+    font-size: 1.1em;
+    width: 1000px;
+    text-align: justify;
+    margin: 50px auto;
+  }
+
 }
